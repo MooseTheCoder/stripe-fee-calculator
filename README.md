@@ -4,8 +4,8 @@
 {
 	amount : 100,
 	currency_convert : false,
-    application_fee : 0,
-    symbol : '£'
+    	application_fee : 0,
+    	symbol : '£'
 }
 ```
 
