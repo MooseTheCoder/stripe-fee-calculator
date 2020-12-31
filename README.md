@@ -26,3 +26,18 @@ Your stripe connect application fee
 #### `symbol` - Optional
 
 Currency symbol (£,$, etc...) for human formatting in the response.
+
+
+
+```js
+const StripeFees = require('./StripeFeeCalculator');
+
+let Amount = 1 // £1
+
+StripeFees.Calculate({
+	amount : Amount * 100,
+	application_fee : 0.6,
+	currency_convert : false,
+	symbol : '£',
+}) // { eu_fee: '£2.20', non_eu_fee: '£3.70' }
+```
