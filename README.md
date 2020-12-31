@@ -23,6 +23,6 @@ Determine if a currency conversion will take place during the transaction (eg, a
 
 Your stripe connect application fee
 
-#### `symbol`
+#### `symbol` - Optional
 
 Currency symbol (£,$, etc...) for human formatting in the response.
