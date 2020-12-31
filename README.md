@@ -1,6 +1,6 @@
 #### This module assumes default stripe processing fees
 
-```json
+```js
 {
 	amount : 100,
 	currency_convert : false,
