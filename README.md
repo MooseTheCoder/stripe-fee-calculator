@@ -32,7 +32,7 @@ Currency symbol (£,$, etc...) for human formatting in the response.
 ```js
 const StripeFees = require('./StripeFeeCalculator');
 
-let Amount = 1 // £1
+let Amount = 100 // £100
 
 StripeFees.Calculate({
 	amount : Amount * 100,
