@@ -1,4 +1,4 @@
-#### This module assumes default stripe processing fees
+#### This module assumes default stripe processing fees and that you ceil your application fee
 
 ```js
 {
