@@ -1,7 +1,7 @@
-const STRIPE_FLAT_FEE = 20;
-const STRIPE_EU_FEE = 1.4;
-const STRIPE_NON_EU_FEE = 2.9;
-const STRIPE_CC_FEE = 2.0
+const STRIPE_FLAT_FEE = 0;
+const STRIPE_EU_FEE = 0;
+const STRIPE_NON_EU_FEE = 0;
+const STRIPE_CC_FEE = 0
 
  /**
   * @param {Object} Options Options object.
